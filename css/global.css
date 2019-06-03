@@ -1,0 +1,61 @@
+* {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+
+    background-color: rgb(240, 240, 240);
+}
+
+body > header {
+    grid-column: 2 / 3;
+    grid-row: 2;
+
+    font-family: "Nunito", "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+body > header > .name {
+    font-size: 36px;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+}
+body > header > .nav {
+    display: inline;
+    grid-gap: 5px;
+}
+body > header > .nav > a {
+    font-size: 16px;
+    margin-right: 4px;
+    
+    color: rgb(170, 170, 170);
+    -webkit-transition: color 2s ease;
+    -moz-transition: color 2s ease;
+    -o-transition: color 2s ease;
+    transition: color 2s ease;
+}
+body > header > .nav > a:hover {
+    color: black;
+}
+
+body > * {
+    min-width: 500px;
+}
+body > * > .title {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 1.5em;
+}
+body > * > .desc {
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: .5em;
+}

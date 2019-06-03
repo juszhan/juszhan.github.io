@@ -1,0 +1,10 @@
+@import url("global.css");
+
+body > .about {
+    grid-column: 2;
+    grid-row: 3;
+}
+body > .contact {
+    grid-column: 2;
+    grid-row: 4;
+}
