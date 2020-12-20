@@ -47,7 +47,7 @@ body > header > .nav > a:hover {
 }
 
 body > * {
-    min-width: 500px;
+    min-width: 650px;
 }
 body > * > .title {
     font-size: 24px;

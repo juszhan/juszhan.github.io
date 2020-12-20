@@ -1,10 +1,14 @@
 @import url("global.css");
 
-body > .project_lendingclub {
+body > .project_yelpeliteness {
     grid-column: 2;
     grid-row: 3;
 }
-body > .project_yelpeliteness {
+body > .project_lendingclub {
     grid-column: 2;
     grid-row: 4;
+}
+body > .project_failtodeliver {
+    grid-column: 2;
+    grid-row: 5;
 }
