@@ -12,3 +12,11 @@ body > .project_failtodeliver {
     grid-column: 2;
     grid-row: 5;
 }
+body > .project_gameoflife {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+body > * > .desc > img {
+    max-width: 50%;
+}
